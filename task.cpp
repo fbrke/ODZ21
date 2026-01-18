@@ -47,6 +47,7 @@ void shakerSort(int a[], int n, int& C, int& M) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     int n;
     cout << "Введите размер массива n: ";
     cin >> n;
